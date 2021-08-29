@@ -7,7 +7,7 @@ import random
 
 bot = commands.Bot(command_prefix="/", intents=discord.Intents.all())
 slash = SlashCommand(bot, sync_commands=True)
-TOKEN = "ODExMDE5MDcxODg1Mjc5MjYy.YCsGXg.gQDdN5jprthOH0iJMCEsta88AhI"
+TOKEN = ""
 
 @bot.event
 async def on_ready():
